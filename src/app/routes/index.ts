@@ -1,11 +1,12 @@
 import express from "express";
+import { SurahRoutes } from "../modules/surah/surah.route";
 
 const router = express.Router();
 
 const moduleRoutes = [
   {
-    path: "/auth",
-    route: "",
+    path: "/surah",
+    route: SurahRoutes,
   },
 ];
 
